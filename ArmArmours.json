@@ -24,5 +24,83 @@
         "name": "Hunter's Vambraces",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ko",
+                "Points": 2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Bone Vambraces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "botany",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Trapper's Gauntlets",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stam drain",
+                "Points": 4
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Maccao Gauntlets",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "expert",
+                "Points": 4
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Jaggi Gauntlets",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "fire atk",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Jaggi Vambraces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "vault",
+                "Points": 1
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Maccao Braces",
+        "rarity": 1,
+        "type": 0
     }
 ]

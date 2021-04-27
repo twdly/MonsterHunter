@@ -24,5 +24,69 @@
         "name": "Hunter's Mail",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ko",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "maestro",
+                "Points": 4
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Bone Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Chaos Plate",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": -2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Jaggi Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "vault",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "stam drain",
+                "Points": 1
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Maccao Mail",
+        "rarity": 1,
+        "type": 0
     }
 ]

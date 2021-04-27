@@ -28,5 +28,65 @@
         "name": "Hunter's Helm",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ko",
+                "Points": 4
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Bone Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Chaoshroom",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "fire atk",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": -2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Jaggi Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "Vault",
+                "Points": 3
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Maccao Helm",
+        "rarity": 1,
+        "type": 0
     }
 ]

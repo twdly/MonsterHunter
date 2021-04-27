@@ -24,5 +24,83 @@
         "name": "Hunter's Greaves",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "maestro",
+                "Points": 6
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Bone Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "botany",
+                "Points": 5
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Trapper's Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stam drain",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Maccao Shinguards",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "expert",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Jaggi Shinguards",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "fire atk",
+                "Points": 2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Jaggi Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "vault",
+                "Points": 2
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Maccao Greaves",
+        "rarity": 1,
+        "type": 0
     }
 ]
