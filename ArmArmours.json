@@ -1,0 +1,28 @@
+[
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "psychic",
+                "Points": 5
+            }
+        ],
+        "minDefense": 2,
+        "maxDefense": 50,
+        "name": "Hunting Braces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "speed setup",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Hunter's Vambraces",
+        "rarity": 1,
+        "type": 0
+    }
+]

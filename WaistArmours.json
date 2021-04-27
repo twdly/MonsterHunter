@@ -1,0 +1,28 @@
+[
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "speed setup",
+                "Points": 3
+            }
+        ],
+        "minDefense": 2,
+        "maxDefense": 50,
+        "name": "Hunting Faulds",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ranger",
+                "Points": 6
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 54,
+        "name": "Hunter's Faulds",
+        "rarity": 1,
+        "type": 0
+    }
+]

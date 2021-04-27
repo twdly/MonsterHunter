@@ -1,0 +1,32 @@
+[
+    {
+        "skills": [
+            {
+                "requiredPoints": 20,
+                "isPointsNegative": true,
+                "name": "attack down (l)"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": true,
+                "name": "attack down (m)"
+            }
+        ],
+        "name": "attack"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "autotracker"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "detect"
+            }
+        ],
+        "name": "psychic"
+    }
+]

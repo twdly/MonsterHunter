@@ -1,0 +1,13 @@
+Required variables:
+    Armour:
+        Rarity
+        Minimum Defense
+        Maximum Defense
+        Points in each skill
+        Blademaster or gunner
+    Skill trees:
+        SkillTreeName
+        Threshold 1, 2, 3, -1, -2 ,-3
+        Active skill names 1, 2, 3, -1, -2 ,-3
+        
+        
