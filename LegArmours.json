@@ -102,5 +102,164 @@
         "name": "Maccao Greaves",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stun",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "paralysis",
+                "Points": -3
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Velociprey Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {}
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Giaprey Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "thunder atk",
+                "Points": 5
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Genprey Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "elemental",
+                "Points": -1
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Vespoid Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon atk",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "dragon res",
+                "Points": 3
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Hornetaur Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sharpness",
+                "Points": 5
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -3
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Bnahabra Boots",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "artillery",
+                "Points": 3
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Rhenoplos Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 3
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Bulldrome Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "honey",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": 5
+            },
+            {
+                "SkillTreeName": "attack",
+                "Points": -5
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Arzuros Greaves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "heat res",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "water atk",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "cold res",
+                "Points": -1
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Cephalos Greaves",
+        "rarity": 1,
+        "type": 0
     }
 ]

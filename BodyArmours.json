@@ -88,5 +88,175 @@
         "name": "Maccao Mail",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stun",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "paralysis",
+                "Points": -4
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Velociprey Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ice atk",
+                "Points": 5
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Giaprey Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "thunder atk",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "paralysis",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "poison",
+                "Points": -3
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Genprey Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sheathing",
+                "Points": 2
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Vespoid Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon atk",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "dragon res",
+                "Points": 1
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Hornetaur Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sharpness",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "status",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Bnahabra Suit",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "artillery",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "water atk",
+                "Points": 3
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Rhenoplos Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "potential",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "protection",
+                "Points": -4
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Bulldrome Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "honey",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "attack",
+                "Points": -2
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Arzuros Mail",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "water atk",
+                "Points": 4
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Cephalos Mail",
+        "rarity": 1,
+        "type": 0
     }
 ]

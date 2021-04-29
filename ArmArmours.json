@@ -102,5 +102,176 @@
         "name": "Maccao Braces",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "water atk",
+                "Points": 4
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Velociprey Braces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "bind res",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "sleep",
+                "Points": -2
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Giaprey Vambraces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "paralysis",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "poison",
+                "Points": -3
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Genprey Vambraces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sheathing",
+                "Points": 3
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Vespoid Vambraces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon res",
+                "Points": 3
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Hornetaur Braces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sharpness",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Bnahabra Gloves",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "guard",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "constitution",
+                "Points": -2
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Konchu Braces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "water atk",
+                "Points": 2
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Rhenoplos Vambraces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 3
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Bulldrome Braces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "honey",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "attack",
+                "Points": -3
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Arzuros Vambraces",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "heat res",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "cold res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Cephalos Braces",
+        "rarity": 1,
+        "type": 0
     }
 ]

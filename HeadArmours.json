@@ -79,13 +79,200 @@
     {
         "skillTrees": [
             {
-                "SkillTreeName": "Vault",
+                "SkillTreeName": "vault",
                 "Points": 3
             }
         ],
         "minDefense": 8,
         "maxDefense": 56,
         "name": "Maccao Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stun",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "paralysis",
+                "Points": -4
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Velociprey Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ice atk",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "bind res",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "sleep",
+                "Points": -3
+            }
+        ],
+        "minDefense": 8,
+        "maxDefense": 56,
+        "name": "Giaprey Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "paralysis",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "poison",
+                "Points": -2
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Genprey Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "elemental",
+                "Points": -2
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Vespoid Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon atk",
+                "Points": 3
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Hornetaur Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sharpness",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 10,
+        "maxDefense": 58,
+        "name": "Bnahabra Hat",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "guard",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "constitution",
+                "Points": -2
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Konchu Helmet",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "artillery",
+                "Points": 5
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Rhenoplos Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "potential",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "attack",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "protection",
+                "Points": -3
+            }
+        ],
+        "minDefense": 12,
+        "maxDefense": 60,
+        "name": "Bulldrome Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "honey",
+                "Points": 3
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Arzuros Helm",
+        "rarity": 1,
+        "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "heat res",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "water atk",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "cold res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 14,
+        "maxDefense": 62,
+        "name": "Cephalos Helm",
         "rarity": 1,
         "type": 0
     }
