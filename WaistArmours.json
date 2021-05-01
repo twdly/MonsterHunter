@@ -193,9 +193,7 @@
         "type": 0
     },
     {
-        "skillTrees": [
-            {}
-        ],
+        "skillTrees": [],
         "minDefense": 14,
         "maxDefense": 62,
         "name": "Arzuros Faulds",

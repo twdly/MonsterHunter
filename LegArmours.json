@@ -121,9 +121,7 @@
         "type": 0
     },
     {
-        "skillTrees": [
-            {}
-        ],
+        "skillTrees": [],
         "minDefense": 8,
         "maxDefense": 56,
         "name": "Giaprey Greaves",
