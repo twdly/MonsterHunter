@@ -258,5 +258,78 @@
         "name": "Cephalos Mail",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "psychic",
+                "Points": 2
+            }
+        ],
+        "minDefense": 1,
+        "maxDefense": 25,
+        "name": "Hunting Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "speed setup",
+                "Points": 2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Hunter's Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ko",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "maestro",
+                "Points": 4
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Bone Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 1
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Chaos Brigandine",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": -2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Jaggi Vest",
+        "rarity": 1,
+        "type": 1
     }
 ]

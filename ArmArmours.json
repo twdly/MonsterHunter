@@ -273,5 +273,96 @@
         "name": "Cephalos Braces",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "psychic",
+                "Points": 4
+            }
+        ],
+        "minDefense": 1,
+        "maxDefense": 25,
+        "name": "Hunting Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "speed setup",
+                "Points": 2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Hunter's Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ko",
+                "Points": 2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Bone Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "botany",
+                "Points": 3
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Trapper's Gloves",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stam drain",
+                "Points": 4
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Maccao Gloves",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "expert",
+                "Points": 4
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Jaggi Gloves",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "fire atk",
+                "Points": 2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Jaggi Guards",
+        "rarity": 1,
+        "type": 1
     }
 ]

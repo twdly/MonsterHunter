@@ -275,5 +275,82 @@
         "name": "Cephalos Helm",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "psychic",
+                "Points": 4
+            }
+        ],
+        "minDefense": 1,
+        "maxDefense": 25,
+        "name": "Hunting Cap",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "speed setup",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "ranger",
+                "Points": 3
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Hunter's Cap",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ko",
+                "Points": 5
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Bone Cap",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 4
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Chaos Diadem",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "fire atk",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": -2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Jaggi Cap",
+        "rarity": 1,
+        "type": 1
     }
 ]

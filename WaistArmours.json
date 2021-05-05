@@ -216,5 +216,61 @@
         "name": "Cephalos Tassets",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "speed setup",
+                "Points": 3
+            }
+        ],
+        "minDefense": 1,
+        "maxDefense": 25,
+        "name": "Hunting Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ranger",
+                "Points": 6
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Hunter's Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ko",
+                "Points": 1
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Bone Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "defense",
+                "Points": -2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Jaggi Coat",
+        "rarity": 1,
+        "type": 1
     }
 ]

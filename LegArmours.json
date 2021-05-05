@@ -259,5 +259,96 @@
         "name": "Cephalos Greaves",
         "rarity": 1,
         "type": 0
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "speed setup",
+                "Points": 3
+            }
+        ],
+        "minDefense": 1,
+        "maxDefense": 25,
+        "name": "Hunting Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ranger",
+                "Points": 1
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Hunter's Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "maestro",
+                "Points": 6
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Bone Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "botany",
+                "Points": 5
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Trapper's Boots",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stam drain",
+                "Points": 3
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Maccao Boots",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "expert",
+                "Points": 3
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Jaggi Boots",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "fire atk",
+                "Points": 2
+            }
+        ],
+        "minDefense": 3,
+        "maxDefense": 27,
+        "name": "Jaggi Leggings",
+        "rarity": 1,
+        "type": 1
     }
 ]
