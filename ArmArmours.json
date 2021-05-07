@@ -364,5 +364,189 @@
         "name": "Jaggi Guards",
         "rarity": 1,
         "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "vault",
+                "Points": 1
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Maccao Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "water atk",
+                "Points": 4
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Velociprey Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "bind res",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "sleep",
+                "Points": -2
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Giaprey Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "paralysis",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "poison",
+                "Points": -3
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Genprey Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sheathing",
+                "Points": 3
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Vespoid Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon res",
+                "Points": 3
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Hornetaur Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ammo saver",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Bnahabra Sleeves",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "precision",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "constitution",
+                "Points": -2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Konchu Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "water atk",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Rhenoplos Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Bulldrome Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "defense",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "honey",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "attack",
+                "Points": -3
+            }
+        ],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Arzuros Guards",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "heat res",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "cold res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Cephalos Guards",
+        "rarity": 1,
+        "type": 1
     }
 ]

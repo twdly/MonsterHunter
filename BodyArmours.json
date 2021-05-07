@@ -331,5 +331,192 @@
         "name": "Jaggi Vest",
         "rarity": 1,
         "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "vault",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "stam drain",
+                "Points": 1
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Maccao Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stun",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "paralysis",
+                "Points": -4
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Velociprey Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ice atk",
+                "Points": 5
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Giaprey Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "thunder atk",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "paralysis",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "poison",
+                "Points": -3
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Genprey Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sheathing",
+                "Points": 2
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Vespoid Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon atk",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "dragon res",
+                "Points": 1
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Hornetaur Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ammo saver",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "status",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Bnahabra Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "artillery",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "water atk",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Rhenoplos Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "potential",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "protection",
+                "Points": -4
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Bulldrome Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "defense",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "honey",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "attack",
+                "Points": -2
+            }
+        ],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Arzuros Vest",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "water atk",
+                "Points": 4
+            }
+        ],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Cephalos Vest",
+        "rarity": 1,
+        "type": 1
     }
 ]

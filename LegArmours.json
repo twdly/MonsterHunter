@@ -350,5 +350,175 @@
         "name": "Jaggi Leggings",
         "rarity": 1,
         "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "vault",
+                "Points": 1
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Maccao Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stun",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "paralysis",
+                "Points": -3
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Velociprey Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Giaprey Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "thunder atk",
+                "Points": 5
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Genprey Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "elemental",
+                "Points": -1
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Vespoid Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon atk",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "dragon res",
+                "Points": 3
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Hornetaur Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "ammo saver",
+                "Points": 5
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -3
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Bnahabra Pants",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "artillery",
+                "Points": 2
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Rhenoplos Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "attack",
+                "Points": 3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Bulldrome Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "defense",
+                "Points": 5
+            },
+            {
+                "SkillTreeName": "honey",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "attack",
+                "Points": -5
+            }
+        ],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Arzuros Leggings",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "heat res",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "water atk",
+                "Points": 2
+            },
+            {
+                "SkillTreeName": "cold res",
+                "Points": -1
+            }
+        ],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Cephalos Leggings",
+        "rarity": 1,
+        "type": 1
     }
 ]

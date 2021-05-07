@@ -272,5 +272,167 @@
         "name": "Jaggi Coat",
         "rarity": 1,
         "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "stam drain",
+                "Points": 2
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Maccao Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "water atk",
+                "Points": 4
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Velociprey Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "bind res",
+                "Points": 4
+            },
+            {
+                "SkillTreeName": "sleep",
+                "Points": -5
+            }
+        ],
+        "minDefense": 4,
+        "maxDefense": 28,
+        "name": "Giaprey Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "paralysis",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "poison",
+                "Points": -2
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Genprey Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "sheathing",
+                "Points": 5
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Vespoid Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "dragon res",
+                "Points": 4
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Hornetaur Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "status",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "fire res",
+                "Points": -2
+            }
+        ],
+        "minDefense": 5,
+        "maxDefense": 29,
+        "name": "Bnahabra Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "artillery",
+                "Points": 1
+            },
+            {
+                "SkillTreeName": "water atk",
+                "Points": 1
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Rhenoplos Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "potential",
+                "Points": 3
+            },
+            {
+                "SkillTreeName": "protection",
+                "Points": -3
+            }
+        ],
+        "minDefense": 6,
+        "maxDefense": 30,
+        "name": "Bulldrome Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Arzuros Coat",
+        "rarity": 1,
+        "type": 1
+    },
+    {
+        "skillTrees": [
+            {
+                "SkillTreeName": "heat res",
+                "Points": 5
+            },
+            {
+                "SkillTreeName": "cold res",
+                "Points": -5
+            }
+        ],
+        "minDefense": 7,
+        "maxDefense": 31,
+        "name": "Cephalos Coat",
+        "rarity": 1,
+        "type": 1
     }
 ]
