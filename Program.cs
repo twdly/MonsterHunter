@@ -17,12 +17,15 @@ namespace monsterhunter
             var legArmours = JsonSerializer.Deserialize<List<LegArmour>>(File.ReadAllText("LegArmours.json"));
             var skillTrees = JsonSerializer.Deserialize<List<SkillTree>>(File.ReadAllText("SkillTrees.json"));
 
-            // var skillTrees1 = headArmours[0].skillTrees;
-
-            // foreach (var skillTree in skillTrees1)
+            // foreach (var skillTree in skillTrees)
             // {
-            //     Console.WriteLine(skillTree.SkillTreeName);
+            //     Console.Write($"\nThe skill tree {skillTree.name} has skills ");
+            //     foreach (var skill in skillTree.skills)
+            //     {
+            //         Console.Write($"{skill.name} ");
+            //     }
             // }
+            // Console.Write("\n");
 
             var weaponType = SelectWeaponType();
             Console.WriteLine($"\nYour selected armour type is {weaponType}.");

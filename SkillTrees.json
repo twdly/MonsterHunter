@@ -10,6 +10,26 @@
                 "requiredPoints": 15,
                 "isPointsNegative": true,
                 "name": "attack down (m)"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "attack down (s)"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "attack up (s)"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "attack up (m)"
+            },
+            {
+                "requiredPoints": 20,
+                "isPointsNegative": false,
+                "name": "attack up (l)"
             }
         ],
         "name": "attack"
@@ -28,5 +48,595 @@
             }
         ],
         "name": "psychic"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "trap master"
+            }
+        ],
+        "name": "speed setup"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "outdoorsman"
+            }
+        ],
+        "name": "ranger"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "knockout king"
+            }
+        ],
+        "name": "ko"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "status atk +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "status atk +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "status attack down"
+            }
+        ],
+        "name": "status"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "fire atk +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "fire atk +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "fire atk down"
+            }
+        ],
+        "name": "fire atk"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 20,
+                "isPointsNegative": false,
+                "name": "defense up (l)"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "defense up (m)"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "defense up (s)"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "defense down (s)"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": true,
+                "name": "defense down (m)"
+            },
+            {
+                "requiredPoints": 20,
+                "isPointsNegative": true,
+                "name": "defense down (l)"
+            }
+        ],
+        "name": "defense"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "airborne"
+            }
+        ],
+        "name": "vault"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "negate stun"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "halve stun"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "double stun"
+            }
+        ],
+        "name": "stun"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "negate paralysis"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "double paralysis"
+            }
+        ],
+        "name": "paralysis"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "ice atk +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "ice atk +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "ice atk down"
+            }
+        ],
+        "name": "ice atk"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "negate bind"
+            }
+        ],
+        "name": "bind res"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "negate sleep"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "double sleep"
+            }
+        ],
+        "name": "sleep"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "negate poison"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "double poison"
+            }
+        ],
+        "name": "poison"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "elemental atk up"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "elemental atk down"
+            }
+        ],
+        "name": "elemental"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "dragon atk +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "dragon atk +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "dragon atk down"
+            }
+        ],
+        "name": "dragon atk"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "razor sharp"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "blunt edge"
+            }
+        ],
+        "name": "sharpness"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "fire res +20"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "fire res +15"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "fire res -20"
+            }
+        ],
+        "name": "fire res"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "guard +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "guard +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "guard -1"
+            }
+        ],
+        "name": "guard"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "constitution +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "constitution +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "constitution -1"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": true,
+                "name": "constitution -2"
+            }
+        ],
+        "name": "constitution"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "artillery expert"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "artillery novice"
+            }
+        ],
+        "name": "artillery"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "adrenaline +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "adrenaline +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "worrywart"
+            }
+        ],
+        "name": "potential"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "divine blessing"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "demonic blessing"
+            }
+        ],
+        "name": "protection"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "honey hunter"
+            }
+        ],
+        "name": "honey"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "heat cancel"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "heat surge"
+            }
+        ],
+        "name": "heat res"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "water atk +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "water atk +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "water atk down"
+            }
+        ],
+        "name": "water atk"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "cold cancel"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "cold surge"
+            }
+        ],
+        "name": "cold res"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "ammo saver"
+            }
+        ],
+        "name": "ammo saver"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "steadiness +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "steadiness +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "steadiness -1"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": true,
+                "name": "steadiness -2"
+            }
+        ],
+        "name": "precision"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "horn maestro"
+            }
+        ],
+        "name": "maestro"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "stamina thief"
+            }
+        ],
+        "name": "stam drain"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "thunder atk +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "thunder atk +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "thunder atk down"
+            }
+        ],
+        "name": "thunder atk"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "quick sheath"
+            }
+        ],
+        "name": "sheathing"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "dragon res +20"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "dragon res +15"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "dragon res -20"
+            }
+        ],
+        "name": "dragon res"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "pro herbology"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "herbology"
+            }
+        ],
+        "name": "botany"
+    },
+    {
+        "skills": [
+            {
+                "requiredPoints": 20,
+                "isPointsNegative": false,
+                "name": "critical eye +3"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "critical eye +2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "critical eye +1"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "critical eye -1"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": true,
+                "name": "critical eye -2"
+            },
+            {
+                "requiredPoints": 20,
+                "isPointsNegative": true,
+                "name": "critical eye -3"
+            }
+        ],
+        "name": "expert"
     }
 ]
