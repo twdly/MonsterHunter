@@ -29,7 +29,7 @@ namespace monsterhunter
 
             var weaponType = SelectWeaponType();
             Console.WriteLine($"\nYour selected armour type is {weaponType}.");
-            // var skills = InputSkills();
+            var skills = InputSkills(skillTrees);
             // var armours = FindNonZeroArmour(skills, weaponType);
             // SortByScore(armours);
             // var topSets = SelectHighestScoreSets(armours, 5);
@@ -63,6 +63,48 @@ namespace monsterhunter
         {
             Console.Write($"{question}\n> ");
             return Console.ReadLine().ToLower();
+        }
+
+        private static List<SkillTree> InputSkills(List<SkillTree> skillTrees)
+        {
+            List<SkillTree> inputSkills = new List<SkillTree>();
+
+            while (true)
+            {
+                string input = Prompt("\nPlease input your desired skills and type \"done\" when finished.");
+                if (input == "done")
+                {
+                    if (inputSkills.Count == 0)
+                    {
+                        Console.WriteLine("Please input skills before moving on.");
+                        continue;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+
+                foreach (var skill in skillTrees)
+                {
+                    if (input == skill.name)
+                    {
+                        inputSkills.Add(skill);
+                        Console.WriteLine("Skill successfully added");
+                        break;
+                    }
+                }
+
+            }
+
+            Console.Write("\nInput skills are");
+
+            foreach (var skill in inputSkills)
+            {
+                Console.Write($" {skill.name},");
+            }
+
+            return inputSkills;
         }
     }
 }
