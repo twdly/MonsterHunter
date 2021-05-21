@@ -97,11 +97,26 @@ namespace monsterhunter
 
             }
 
+            int loopCount = 0;
+            int listLength = inputSkills.Count;
             Console.Write("\nInput skills are");
 
             foreach (var skill in inputSkills)
             {
-                Console.Write($" {skill.name},");
+                Console.Write($" {skill.name}");
+                if (loopCount == listLength - 2)
+                {
+                    Console.Write(" and");
+                }
+                else if (loopCount != listLength - 1)
+                {
+                    Console.Write(',');
+                }
+                else
+                {
+                    Console.Write('.');
+                }
+                loopCount++;
             }
 
             return inputSkills;
