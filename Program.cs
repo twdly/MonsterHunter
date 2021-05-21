@@ -85,13 +85,26 @@ namespace monsterhunter
                     }
                 }
 
-                foreach (var skill in skillTrees)
+                bool isInputAllowed = true;
+                foreach (var currentSkills in inputSkills)
                 {
-                    if (input == skill.name)
+                    if (input == currentSkills.name)
                     {
-                        inputSkills.Add(skill);
-                        Console.WriteLine("Skill successfully added");
-                        break;
+                        Console.WriteLine("This skill has already been added");
+                        isInputAllowed = false;
+                    }
+                }
+
+                if (isInputAllowed)
+                {
+                    foreach (var skill in skillTrees)
+                    {
+                        if (input == skill.name)
+                        {
+                            inputSkills.Add(skill);
+                            Console.WriteLine("Skill successfully added");
+                            break;
+                        }
                     }
                 }
 
