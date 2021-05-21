@@ -17,16 +17,6 @@ namespace monsterhunter
             var legArmours = JsonSerializer.Deserialize<List<LegArmour>>(File.ReadAllText("LegArmours.json"));
             var skillTrees = JsonSerializer.Deserialize<List<SkillTree>>(File.ReadAllText("SkillTrees.json"));
 
-            // foreach (var skillTree in skillTrees)
-            // {
-            //     Console.Write($"\nThe skill tree {skillTree.name} has skills ");
-            //     foreach (var skill in skillTree.skills)
-            //     {
-            //         Console.Write($"{skill.name} ");
-            //     }
-            // }
-            // Console.Write("\n");
-
             var weaponType = SelectWeaponType();
             Console.WriteLine($"\nYour selected armour type is {weaponType}.");
             var skills = InputSkills(skillTrees);
@@ -107,7 +97,6 @@ namespace monsterhunter
                         }
                     }
                 }
-
             }
 
             int loopCount = 0;
