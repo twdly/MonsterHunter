@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 
 namespace monsterhunter
@@ -10,18 +11,14 @@ namespace monsterhunter
 
         static void Main(string[] args)
         {
-            var headArmours = JsonSerializer.Deserialize<List<HeadArmour>>(File.ReadAllText("HeadArmours.json"));
-            var bodyArmours = JsonSerializer.Deserialize<List<BodyArmour>>(File.ReadAllText("BodyArmours.json"));
-            var armArmours = JsonSerializer.Deserialize<List<ArmArmour>>(File.ReadAllText("ArmArmours.json"));
-            var waistArmours = JsonSerializer.Deserialize<List<WaistArmour>>(File.ReadAllText("WaistArmours.json"));
-            var legArmours = JsonSerializer.Deserialize<List<LegArmour>>(File.ReadAllText("LegArmours.json"));
+            var armourDb = new ArmourDb();
             var skillTrees = JsonSerializer.Deserialize<List<SkillTree>>(File.ReadAllText("SkillTrees.json"));
 
             var weaponType = SelectWeaponType();
             Console.WriteLine($"\nYour selected armour type is {weaponType}.");
             var skills = InputSkills(skillTrees);
-            // var armours = FindNonZeroArmour(skills, weaponType);
-            // SortByScore(armours);
+            var armourCandidates = FindArmourCandidates(skills, weaponType, armourDb);
+            // SortByScore(armourCandidates);
             // var topSets = SelectHighestScoreSets(armours, 5);
 
             // foreach (var set in topSets)
@@ -29,6 +26,14 @@ namespace monsterhunter
             //     var report = set.generateReport();
             //     Console.WriteLine(report);
             // }
+        }
+
+        private static List<Armour> FindArmourCandidates(List<SkillTree> skills, ArmourType weaponType, ArmourDb armourDb)
+        {
+            return armourDb
+                .Armours()
+                .Where(armourPiece => weaponType == armourPiece.type && armourPiece.FindSkillOverlaps(skills, armourPiece))
+                .ToList();
         }
 
         private static ArmourType SelectWeaponType()

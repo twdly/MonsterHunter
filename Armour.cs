@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
-
+using System.IO;
+using System.Text.Json;
 
 namespace monsterhunter
 {
@@ -14,6 +15,21 @@ namespace monsterhunter
         public ArmourType type { get; set; }
 
         public Armour() { }
+
+        internal bool FindSkillOverlaps(List<SkillTree> skillTrees, Armour armourPiece)
+        {
+            foreach (var skillTree in skillTrees)
+            {
+                foreach (var availableSkillTrees in armourPiece.skillTrees)
+                {
+                    if (skillTree.name == availableSkillTrees.SkillTreeName && availableSkillTrees.Points > 0)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
     }
 
     class HeadArmour : Armour { }
@@ -42,5 +58,37 @@ namespace monsterhunter
         Blademaster,
         Gunner,
         Both,
+    }
+
+    class ArmourDb
+    {
+        public List<HeadArmour> HeadArmours { get; }
+        public List<BodyArmour> BodyArmours { get; }
+        public List<ArmArmour> ArmArmours { get; }
+        public List<WaistArmour> WaistArmours { get; }
+        public List<LegArmour> LegArmours { get; }
+
+        public ArmourDb()
+        {
+            HeadArmours = JsonSerializer.Deserialize<List<HeadArmour>>(File.ReadAllText("HeadArmours.json"));
+            BodyArmours = JsonSerializer.Deserialize<List<BodyArmour>>(File.ReadAllText("BodyArmours.json"));
+            ArmArmours = JsonSerializer.Deserialize<List<ArmArmour>>(File.ReadAllText("ArmArmours.json"));
+            WaistArmours = JsonSerializer.Deserialize<List<WaistArmour>>(File.ReadAllText("WaistArmours.json"));
+            LegArmours = JsonSerializer.Deserialize<List<LegArmour>>(File.ReadAllText("LegArmours.json"));
+        }
+
+        public List<Armour> Armours()
+        {
+            var armours = new List<Armour>();
+            armours.AddRange(HeadArmours);
+            armours.AddRange(BodyArmours);
+            armours.AddRange(ArmArmours);
+            armours.AddRange(WaistArmours);
+            armours.AddRange(LegArmours);
+
+            return armours;
+
+            // empty line for arzg
+        }
     }
 }
