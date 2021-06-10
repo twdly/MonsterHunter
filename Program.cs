@@ -18,6 +18,11 @@ namespace monsterhunter
             Console.WriteLine($"\nYour selected armour type is {weaponType}.");
             var skills = InputSkills(skillTrees);
             var armourCandidates = FindArmourCandidates(skills, weaponType, armourDb);
+            AssignPriority(armourCandidates, skills);
+            foreach (var armour in armourCandidates)
+            {
+                Console.WriteLine($"{armour.name} has a priority of {armour.priority}.");
+            }
             // SortByScore(armourCandidates);
             // var topSets = SelectHighestScoreSets(armours, 5);
 
@@ -26,6 +31,28 @@ namespace monsterhunter
             //     var report = set.generateReport();
             //     Console.WriteLine(report);
             // }
+        }
+
+        private static void AssignPriority(List<Armour> armourCandidates, List<SkillTree> skills)
+        {
+            foreach (var armour in armourCandidates)
+            {
+                int priority = 0;
+                foreach (var armourSkill in armour.skillTrees)
+                {
+
+                    foreach (var skill in skills)
+                    {
+                        if (armourSkill.SkillTreeName == skill.name)
+                        {
+                            priority += armourSkill.Points;
+
+                        }
+                    }
+
+                }
+                armour.priority = priority;
+            }
         }
 
         private static List<Armour> FindArmourCandidates(List<SkillTree> skills, ArmourType weaponType, ArmourDb armourDb)

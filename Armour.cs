@@ -13,6 +13,7 @@ namespace monsterhunter
         public string name { get; set; }
         public int rarity { get; set; }
         public ArmourType type { get; set; }
+        public int priority { get; set; }
 
         public Armour() { }
 
