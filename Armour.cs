@@ -14,6 +14,7 @@ namespace monsterhunter
         public int rarity { get; set; }
         public ArmourType type { get; set; }
         public int priority { get; set; }
+        public ArmourSlot slot { get; set; }
 
         public Armour() { }
 
@@ -41,11 +42,11 @@ namespace monsterhunter
 
     class ArmourSet
     {
-        HeadArmour headArmour;
-        BodyArmour bodyArmour;
-        ArmArmour armArmour;
-        WaistArmour waistArmour;
-        LegArmour legArmour;
+        public HeadArmour headArmour { get; set; }
+        public BodyArmour bodyArmour { get; set; }
+        public ArmArmour armArmour { get; set; }
+        public WaistArmour waistArmour { get; set; }
+        public LegArmour legArmour { get; set; }
     }
 
     class SkillTreeAndPoints
@@ -59,6 +60,15 @@ namespace monsterhunter
         Blademaster,
         Gunner,
         Both,
+    }
+
+    enum ArmourSlot
+    {
+        Head,
+        Body,
+        Arm,
+        Waist,
+        Leg,
     }
 
     class ArmourDb

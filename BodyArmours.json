@@ -10,7 +10,8 @@
         "maxDefense": 50,
         "name": "Hunting Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -23,7 +24,8 @@
         "maxDefense": 54,
         "name": "Hunter's Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -40,7 +42,8 @@
         "maxDefense": 54,
         "name": "Bone Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -53,7 +56,8 @@
         "maxDefense": 54,
         "name": "Chaos Plate",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -70,7 +74,8 @@
         "maxDefense": 54,
         "name": "Jaggi Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -87,7 +92,8 @@
         "maxDefense": 56,
         "name": "Maccao Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -104,7 +110,8 @@
         "maxDefense": 56,
         "name": "Velociprey Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -117,7 +124,8 @@
         "maxDefense": 56,
         "name": "Giaprey Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -138,7 +146,8 @@
         "maxDefense": 58,
         "name": "Genprey Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -151,7 +160,8 @@
         "maxDefense": 58,
         "name": "Vespoid Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -168,7 +178,8 @@
         "maxDefense": 58,
         "name": "Hornetaur Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -189,7 +200,8 @@
         "maxDefense": 58,
         "name": "Bnahabra Suit",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -206,7 +218,8 @@
         "maxDefense": 60,
         "name": "Rhenoplos Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -223,7 +236,8 @@
         "maxDefense": 60,
         "name": "Bulldrome Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -244,7 +258,8 @@
         "maxDefense": 62,
         "name": "Arzuros Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -257,7 +272,8 @@
         "maxDefense": 62,
         "name": "Cephalos Mail",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -270,7 +286,8 @@
         "maxDefense": 25,
         "name": "Hunting Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -283,7 +300,8 @@
         "maxDefense": 27,
         "name": "Hunter's Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -300,7 +318,8 @@
         "maxDefense": 27,
         "name": "Bone Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -313,7 +332,8 @@
         "maxDefense": 27,
         "name": "Chaos Brigandine",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -330,7 +350,8 @@
         "maxDefense": 27,
         "name": "Jaggi Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -347,7 +368,8 @@
         "maxDefense": 28,
         "name": "Maccao Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -364,7 +386,8 @@
         "maxDefense": 28,
         "name": "Velociprey Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -377,7 +400,8 @@
         "maxDefense": 28,
         "name": "Giaprey Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -398,7 +422,8 @@
         "maxDefense": 29,
         "name": "Genprey Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -411,7 +436,8 @@
         "maxDefense": 29,
         "name": "Vespoid Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -428,7 +454,8 @@
         "maxDefense": 29,
         "name": "Hornetaur Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -449,7 +476,8 @@
         "maxDefense": 29,
         "name": "Bnahabra Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -466,7 +494,8 @@
         "maxDefense": 30,
         "name": "Rhenoplos Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -483,7 +512,8 @@
         "maxDefense": 30,
         "name": "Bulldrome Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -504,7 +534,8 @@
         "maxDefense": 31,
         "name": "Arzuros Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     },
     {
         "skillTrees": [
@@ -517,6 +548,7 @@
         "maxDefense": 31,
         "name": "Cephalos Vest",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 1
     }
 ]

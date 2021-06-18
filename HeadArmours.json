@@ -10,7 +10,8 @@
         "maxDefense": 50,
         "name": "Hunting Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -27,7 +28,8 @@
         "maxDefense": 54,
         "name": "Hunter's Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -40,7 +42,8 @@
         "maxDefense": 54,
         "name": "Bone Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -53,7 +56,8 @@
         "maxDefense": 54,
         "name": "Chaoshroom",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -74,7 +78,8 @@
         "maxDefense": 54,
         "name": "Jaggi Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -87,7 +92,8 @@
         "maxDefense": 56,
         "name": "Maccao Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -104,7 +110,8 @@
         "maxDefense": 56,
         "name": "Velociprey Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -125,7 +132,8 @@
         "maxDefense": 56,
         "name": "Giaprey Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -142,7 +150,8 @@
         "maxDefense": 58,
         "name": "Genprey Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -159,7 +168,8 @@
         "maxDefense": 58,
         "name": "Vespoid Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -172,7 +182,8 @@
         "maxDefense": 58,
         "name": "Hornetaur Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -189,7 +200,8 @@
         "maxDefense": 58,
         "name": "Bnahabra Hat",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -206,7 +218,8 @@
         "maxDefense": 60,
         "name": "Konchu Helmet",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -219,7 +232,8 @@
         "maxDefense": 60,
         "name": "Rhenoplos Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -240,7 +254,8 @@
         "maxDefense": 60,
         "name": "Bulldrome Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -253,7 +268,8 @@
         "maxDefense": 62,
         "name": "Arzuros Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -274,7 +290,8 @@
         "maxDefense": 62,
         "name": "Cephalos Helm",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -287,7 +304,8 @@
         "maxDefense": 25,
         "name": "Hunting Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -304,7 +322,8 @@
         "maxDefense": 27,
         "name": "Hunter's Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -317,7 +336,8 @@
         "maxDefense": 27,
         "name": "Bone Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -330,7 +350,8 @@
         "maxDefense": 27,
         "name": "Chaos Diadem",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -351,7 +372,8 @@
         "maxDefense": 27,
         "name": "Jaggi Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -364,7 +386,8 @@
         "maxDefense": 28,
         "name": "Maccao Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -381,7 +404,8 @@
         "maxDefense": 28,
         "name": "Velociprey Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -402,7 +426,8 @@
         "maxDefense": 28,
         "name": "Giaprey Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -419,7 +444,8 @@
         "maxDefense": 29,
         "name": "Genprey Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -436,7 +462,8 @@
         "maxDefense": 29,
         "name": "Vespoid Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -449,7 +476,8 @@
         "maxDefense": 29,
         "name": "Hornetaur Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -466,7 +494,8 @@
         "maxDefense": 29,
         "name": "Bnahabra Headpiece",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -483,7 +512,8 @@
         "maxDefense": 30,
         "name": "Konchu Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -496,7 +526,8 @@
         "maxDefense": 30,
         "name": "Rhenoplos Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -517,7 +548,8 @@
         "maxDefense": 30,
         "name": "Bulldrome Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -530,7 +562,8 @@
         "maxDefense": 31,
         "name": "Arzuros Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     },
     {
         "skillTrees": [
@@ -551,6 +584,7 @@
         "maxDefense": 31,
         "name": "Cephalos Cap",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 0
     }
 ]

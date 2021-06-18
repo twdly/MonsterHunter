@@ -20,6 +20,7 @@ namespace monsterhunter
             var armourCandidates = FindArmourCandidates(skills, weaponType, armourDb);
             AssignPriority(armourCandidates, skills);
             armourCandidates = SortByPriority(armourCandidates);
+            var armourSet = GenerateSet(armourCandidates);
             // var topSets = SelectHighestScoreSets(armours, 5);
 
             // foreach (var set in topSets)
@@ -27,6 +28,48 @@ namespace monsterhunter
             //     var report = set.generateReport();
             //     Console.WriteLine(report);
             // }
+        }
+
+        private static ArmourSet GenerateSet(List<Armour> armourCandidates)
+        {
+            var armourSet = new ArmourSet();
+            foreach (var armour in armourCandidates)
+            {
+                switch (armour.slot)
+                {
+                    case ArmourSlot.Head:
+                        if (armourSet.headArmour == null)
+                        {
+                            armourSet.headArmour = (HeadArmour)armour;
+                        }
+                        break;
+                    case ArmourSlot.Body:
+                        if (armourSet.bodyArmour == null)
+                        {
+                            armourSet.bodyArmour = (BodyArmour)armour;
+                        }
+                        break;
+                    case ArmourSlot.Waist:
+                        if (armourSet.waistArmour == null)
+                        {
+                            armourSet.waistArmour = (WaistArmour)armour;
+                        }
+                        break;
+                    case ArmourSlot.Arm:
+                        if (armourSet.armArmour == null)
+                        {
+                            armourSet.armArmour = (ArmArmour)armour;
+                        }
+                        break;
+                    case ArmourSlot.Leg:
+                        if (armourSet.legArmour == null)
+                        {
+                            armourSet.legArmour = (LegArmour)armour;
+                        }
+                        break;
+                }
+            }
+            return armourSet;
         }
 
         private static List<Armour> SortByPriority(List<Armour> armourCandidates)
@@ -148,7 +191,7 @@ namespace monsterhunter
                 }
                 else
                 {
-                    Console.Write('.');
+                    Console.WriteLine('.');
                 }
                 loopCount++;
             }

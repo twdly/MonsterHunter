@@ -10,7 +10,8 @@
         "maxDefense": 50,
         "name": "Hunting Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -23,7 +24,8 @@
         "maxDefense": 54,
         "name": "Hunter's Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -36,7 +38,8 @@
         "maxDefense": 54,
         "name": "Bone Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -49,7 +52,8 @@
         "maxDefense": 54,
         "name": "Trapper's Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -62,7 +66,8 @@
         "maxDefense": 54,
         "name": "Maccao Shinguards",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -75,7 +80,8 @@
         "maxDefense": 54,
         "name": "Jaggi Shinguards",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -88,7 +94,8 @@
         "maxDefense": 54,
         "name": "Jaggi Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -101,7 +108,8 @@
         "maxDefense": 56,
         "name": "Maccao Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -118,7 +126,8 @@
         "maxDefense": 56,
         "name": "Velociprey Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [],
@@ -126,7 +135,8 @@
         "maxDefense": 56,
         "name": "Giaprey Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -139,7 +149,8 @@
         "maxDefense": 58,
         "name": "Genprey Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -156,7 +167,8 @@
         "maxDefense": 58,
         "name": "Vespoid Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -173,7 +185,8 @@
         "maxDefense": 58,
         "name": "Hornetaur Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -190,7 +203,8 @@
         "maxDefense": 58,
         "name": "Bnahabra Boots",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -203,7 +217,8 @@
         "maxDefense": 60,
         "name": "Rhenoplos Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -216,7 +231,8 @@
         "maxDefense": 60,
         "name": "Bulldrome Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -237,7 +253,8 @@
         "maxDefense": 62,
         "name": "Arzuros Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -258,7 +275,8 @@
         "maxDefense": 62,
         "name": "Cephalos Greaves",
         "rarity": 1,
-        "type": 0
+        "type": 0,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -271,7 +289,8 @@
         "maxDefense": 25,
         "name": "Hunting Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -284,7 +303,8 @@
         "maxDefense": 27,
         "name": "Hunter's Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -297,7 +317,8 @@
         "maxDefense": 27,
         "name": "Bone Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -310,7 +331,8 @@
         "maxDefense": 27,
         "name": "Trapper's Boots",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -323,7 +345,8 @@
         "maxDefense": 27,
         "name": "Maccao Boots",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -336,7 +359,8 @@
         "maxDefense": 27,
         "name": "Jaggi Boots",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -349,7 +373,8 @@
         "maxDefense": 27,
         "name": "Jaggi Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -362,7 +387,8 @@
         "maxDefense": 28,
         "name": "Maccao Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -379,7 +405,8 @@
         "maxDefense": 28,
         "name": "Velociprey Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [],
@@ -387,7 +414,8 @@
         "maxDefense": 28,
         "name": "Giaprey Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -400,7 +428,8 @@
         "maxDefense": 29,
         "name": "Genprey Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -417,7 +446,8 @@
         "maxDefense": 29,
         "name": "Vespoid Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -434,7 +464,8 @@
         "maxDefense": 29,
         "name": "Hornetaur Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -451,7 +482,8 @@
         "maxDefense": 29,
         "name": "Bnahabra Pants",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -464,7 +496,8 @@
         "maxDefense": 30,
         "name": "Rhenoplos Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -477,7 +510,8 @@
         "maxDefense": 30,
         "name": "Bulldrome Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -498,7 +532,8 @@
         "maxDefense": 31,
         "name": "Arzuros Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     },
     {
         "skillTrees": [
@@ -519,6 +554,7 @@
         "maxDefense": 31,
         "name": "Cephalos Leggings",
         "rarity": 1,
-        "type": 1
+        "type": 1,
+        "slot": 4
     }
 ]
