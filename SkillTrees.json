@@ -3,6 +3,21 @@
         "skills": [
             {
                 "requiredPoints": 20,
+                "isPointsNegative": false,
+                "name": "attack up (l)"
+            },
+            {
+                "requiredPoints": 15,
+                "isPointsNegative": false,
+                "name": "attack up (m)"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": false,
+                "name": "attack up (s)"
+            },
+            {
+                "requiredPoints": 20,
                 "isPointsNegative": true,
                 "name": "attack down (l)"
             },
@@ -15,21 +30,6 @@
                 "requiredPoints": 10,
                 "isPointsNegative": true,
                 "name": "attack down (s)"
-            },
-            {
-                "requiredPoints": 10,
-                "isPointsNegative": false,
-                "name": "attack up (s)"
-            },
-            {
-                "requiredPoints": 15,
-                "isPointsNegative": false,
-                "name": "attack up (m)"
-            },
-            {
-                "requiredPoints": 20,
-                "isPointsNegative": false,
-                "name": "attack up (l)"
             }
         ],
         "name": "attack"

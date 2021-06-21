@@ -21,17 +21,10 @@ namespace monsterhunter
             AssignPriority(armourCandidates, skills);
             armourCandidates = SortByPriority(armourCandidates);
             var armourSet = GenerateSet(armourCandidates);
-            GenerateReport(armourSet);
-            // var topSets = SelectHighestScoreSets(armours, 5);
-
-            // foreach (var set in topSets)
-            // {
-            //     var report = set.generateReport();
-            //     Console.WriteLine(report);
-            // }
+            GenerateReport(armourSet, skillTrees);
         }
 
-        private static void GenerateReport(ArmourSet armourSet)
+        private static void GenerateReport(ArmourSet armourSet, List<SkillTree> skillTrees)
         {
             var armourPieces = new List<Armour>();
             armourPieces.Add(armourSet.headArmour);
@@ -53,10 +46,48 @@ namespace monsterhunter
             PrintSkillPoints(skills);
 
             Console.WriteLine("\nActive Skills");
+            DetermineActiveSkills(skills, skillTrees);
 
             Console.WriteLine("\nRequired Points");
 
             Console.WriteLine("\nRecommended Points");
+        }
+
+        private static void DetermineActiveSkills(List<SkillTreeAndPoints> skills, List<SkillTree> skillTrees)
+        {
+            var isPointsNegative = false;
+            var printedSkills = false;
+            foreach (var skill in skills)
+            {
+                foreach (var skillTree in skillTrees)
+                {
+                    if (skillTree.name == skill.SkillTreeName)
+                    {
+                        foreach (var threshold in skillTree.skills)
+                        {
+                            if (skill.Points < 0)
+                            {
+                                isPointsNegative = true;
+                                var absolutePoints = skill.Points * -1;
+                            }
+                            else
+                            {
+                                isPointsNegative = false;
+                            }
+                            if (threshold.requiredPoints <= skill.Points && isPointsNegative == threshold.isPointsNegative)
+                            {
+                                Console.WriteLine(threshold.name);
+                                printedSkills = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            if (printedSkills == false)
+            {
+                Console.WriteLine("None");
+            }
         }
 
         private static void PrintSkillPoints(List<SkillTreeAndPoints> skills)
