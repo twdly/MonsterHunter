@@ -137,9 +137,9 @@
                 "name": "defense up (s)"
             },
             {
-                "requiredPoints": 10,
+                "requiredPoints": 20,
                 "isPointsNegative": true,
-                "name": "defense down (s)"
+                "name": "defense down (l)"
             },
             {
                 "requiredPoints": 15,
@@ -147,9 +147,9 @@
                 "name": "defense down (m)"
             },
             {
-                "requiredPoints": 20,
+                "requiredPoints": 10,
                 "isPointsNegative": true,
-                "name": "defense down (l)"
+                "name": "defense down (s)"
             }
         ],
         "name": "defense"
@@ -362,14 +362,14 @@
                 "name": "constitution +1"
             },
             {
-                "requiredPoints": 10,
-                "isPointsNegative": true,
-                "name": "constitution -1"
-            },
-            {
                 "requiredPoints": 15,
                 "isPointsNegative": true,
                 "name": "constitution -2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "constitution -1"
             }
         ],
         "name": "constitution"
@@ -507,14 +507,14 @@
                 "name": "steadiness +1"
             },
             {
-                "requiredPoints": 10,
-                "isPointsNegative": true,
-                "name": "steadiness -1"
-            },
-            {
                 "requiredPoints": 15,
                 "isPointsNegative": true,
                 "name": "steadiness -2"
+            },
+            {
+                "requiredPoints": 10,
+                "isPointsNegative": true,
+                "name": "steadiness -1"
             }
         ],
         "name": "precision"
