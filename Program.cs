@@ -57,6 +57,7 @@ namespace monsterhunter
         {
             var isPointsNegative = false;
             var printedSkills = false;
+            int absolutePoints;
             foreach (var skill in skills)
             {
                 foreach (var skillTree in skillTrees)
@@ -68,13 +69,14 @@ namespace monsterhunter
                             if (skill.Points < 0)
                             {
                                 isPointsNegative = true;
-                                var absolutePoints = skill.Points * -1;
+                                absolutePoints = -skill.Points;
                             }
                             else
                             {
+                                absolutePoints = skill.Points;
                                 isPointsNegative = false;
                             }
-                            if (threshold.requiredPoints <= skill.Points && isPointsNegative == threshold.isPointsNegative)
+                            if (threshold.requiredPoints <= absolutePoints && isPointsNegative == threshold.isPointsNegative)
                             {
                                 Console.WriteLine(threshold.name);
                                 printedSkills = true;
@@ -104,25 +106,28 @@ namespace monsterhunter
             bool skillAdded = false;
             foreach (var armour in armourSet)
             {
-                foreach (var skillTree in armour.skillTrees)
+                if (armour != null)
                 {
-                    foreach (var countedSkill in skills)
+                    foreach (var skillTree in armour.skillTrees)
                     {
-                        if (countedSkill.SkillTreeName == skillTree.SkillTreeName)
+                        foreach (var countedSkill in skills)
                         {
-                            countedSkill.Points += skillTree.Points;
-                            skillAdded = true;
-                            break;
-                        }
+                            if (countedSkill.SkillTreeName == skillTree.SkillTreeName)
+                            {
+                                countedSkill.Points += skillTree.Points;
+                                skillAdded = true;
+                                break;
+                            }
 
-                    }
-                    if (skillAdded == false)
-                    {
-                        skills.Add(skillTree);
-                    }
-                    else
-                    {
-                        skillAdded = false;
+                        }
+                        if (skillAdded == false)
+                        {
+                            skills.Add(skillTree);
+                        }
+                        else
+                        {
+                            skillAdded = false;
+                        }
                     }
                 }
             }

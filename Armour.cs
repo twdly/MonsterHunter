@@ -24,7 +24,7 @@ namespace monsterhunter
             {
                 foreach (var availableSkillTrees in armourPiece.skillTrees)
                 {
-                    if (skillTree.name == availableSkillTrees.SkillTreeName && availableSkillTrees.Points > 0)
+                    if (skillTree.name == availableSkillTrees.SkillTreeName)
                     {
                         return true;
                     }
