@@ -21,6 +21,7 @@ namespace monsterhunter
             AssignPriority(armourCandidates, skills);
             armourCandidates = SortByPriority(armourCandidates);
             var armourSet = GenerateSet(armourCandidates);
+            GenerateReport(armourSet);
             // var topSets = SelectHighestScoreSets(armours, 5);
 
             // foreach (var set in topSets)
@@ -28,6 +29,117 @@ namespace monsterhunter
             //     var report = set.generateReport();
             //     Console.WriteLine(report);
             // }
+        }
+
+        private static void GenerateReport(ArmourSet armourSet)
+        {
+            var armourPieces = new List<Armour>();
+            armourPieces.Add(armourSet.headArmour);
+            armourPieces.Add(armourSet.bodyArmour);
+            armourPieces.Add(armourSet.armArmour);
+            armourPieces.Add(armourSet.waistArmour);
+            armourPieces.Add(armourSet.legArmour);
+
+
+            Console.WriteLine("\nArmour Pieces:");
+            foreach (var armourPiece in armourPieces)
+            {
+                PrintArmourPiece(armourPiece);
+            }
+
+            Console.WriteLine("\nCurrent Skill Points:");
+            var skills = new List<SkillTreeAndPoints>();
+            skills = CountSkillPoints(armourPieces);
+            PrintSkillPoints(skills);
+
+            Console.WriteLine("\nActive Skills");
+
+            Console.WriteLine("\nRequired Points");
+
+            Console.WriteLine("\nRecommended Points");
+        }
+
+        private static void PrintSkillPoints(List<SkillTreeAndPoints> skills)
+        {
+            foreach (var skill in skills)
+            {
+                Console.WriteLine($"{skill.SkillTreeName}: {skill.Points} points");
+            }
+        }
+
+        private static List<SkillTreeAndPoints> CountSkillPoints(List<Armour> armourSet)
+        {
+            var skills = new List<SkillTreeAndPoints>();
+            bool skillAdded = false;
+            foreach (var armour in armourSet)
+            {
+                foreach (var skillTree in armour.skillTrees)
+                {
+                    foreach (var countedSkill in skills)
+                    {
+                        if (countedSkill.SkillTreeName == skillTree.SkillTreeName)
+                        {
+                            countedSkill.Points += skillTree.Points;
+                            skillAdded = true;
+                            break;
+                        }
+
+                    }
+                    if (skillAdded == false)
+                    {
+                        skills.Add(skillTree);
+                    }
+                    else
+                    {
+                        skillAdded = false;
+                    }
+                }
+            }
+            return skills;
+        }
+
+        private static void PrintArmourPiece(Armour armour)
+        {
+            if (armour == null)
+            {
+                Console.WriteLine("<Empty>");
+                return;
+            }
+            switch (armour.rarity)
+            {
+                case 1:
+                    Console.ForegroundColor = ConsoleColor.White;
+                    break;
+                case 2:
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                    break;
+                case 3:
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    break;
+                case 4:
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    break;
+                case 5:
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    break;
+                case 6:
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    break;
+                case 7:
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    break;
+                case 8:
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                    break;
+                case 9:
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    break;
+                case 10:
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    break;
+            }
+            Console.WriteLine(armour.name);
+            Console.ResetColor();
         }
 
         private static ArmourSet GenerateSet(List<Armour> armourCandidates)
