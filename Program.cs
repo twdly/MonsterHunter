@@ -21,10 +21,10 @@ namespace monsterhunter
             AssignPriority(armourCandidates, skills);
             armourCandidates = SortByPriority(armourCandidates);
             var armourSet = GenerateSet(armourCandidates);
-            GenerateReport(armourSet, skillTrees);
+            GenerateReport(armourSet, skillTrees, skills);
         }
 
-        private static void GenerateReport(ArmourSet armourSet, List<SkillTree> skillTrees)
+        private static void GenerateReport(ArmourSet armourSet, List<SkillTree> skillTrees, List<SkillTree> inputSkills)
         {
             var armourPieces = new List<Armour>();
             armourPieces.Add(armourSet.headArmour);
@@ -49,8 +49,49 @@ namespace monsterhunter
             DetermineActiveSkills(skills, skillTrees);
 
             Console.WriteLine("\nRequired Points");
+            DetermineRequiredPoints(skills, skillTrees, inputSkills);
 
             Console.WriteLine("\nRecommended Points");
+            DetermineRecommendedPoints(skills, skillTrees, inputSkills);
+        }
+
+        private static void DetermineRequiredPoints(List<SkillTreeAndPoints> skills, List<SkillTree> skillTrees, List<SkillTree> inputSkills)
+        {
+            bool isSkillPrinted = false;
+            foreach (var skill in skills)
+            {
+                foreach (var skillTree in skillTrees)
+                {
+                    if (skillTree.name == skill.SkillTreeName)
+                    {
+                        foreach (var threshold in skillTree.skills)
+                        {
+                            foreach (var inputSkill in inputSkills)
+                            {
+                                if (inputSkill.name == skill.SkillTreeName)
+                                {
+                                    if (skill.Points < threshold.requiredPoints && threshold.isPointsNegative == false)
+                                    {
+                                        Console.WriteLine($"{threshold.requiredPoints - skill.Points} {skillTree.name} points are required for {threshold.name}.");
+                                        isSkillPrinted = true;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                if (isSkillPrinted == true)
+                {
+                    Console.WriteLine();
+                    isSkillPrinted = false;
+                }
+            }
+
+        }
+
+        private static void DetermineRecommendedPoints(List<SkillTreeAndPoints> skills, List<SkillTree> skillTrees, List<SkillTree> inputSkills)
+        {
+            return;
         }
 
         private static void DetermineActiveSkills(List<SkillTreeAndPoints> skills, List<SkillTree> skillTrees)
