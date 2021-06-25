@@ -1,14 +1,12 @@
 # MonsterHunter
 
-This is an automatic armour set generator designed to work with Monster Hunter Generations Ultimate. This project is currently a work in progress and, as a result, is not functional.
+This is an automatic armour set generator designed to work with Monster Hunter Generations Ultimate.
 
-## How will this work?
+## How does this work?
 
-Once functional, this project will ask you for the type of weapon you will be using (gunner or blademaster) and then will prompt you for the skill trees that you would like prioritised for your set. Once you are done inputting your skills, you need to type 'done' and the armour set will be generated.
+This project will ask you for the type of weapon you will be using (gunner or blademaster) and then will prompt you for the skill trees that you would like prioritised for your set. Once you are done inputting your skills, you need to type 'done' and then the armour set will be generated.
 
 ## Understanding the output
-
-Although not functional yet, the planned output will have a few sections such as the set itself, current skill points, active skills, required points and recommended points.
 
 ### Set
 
