@@ -86,12 +86,57 @@ namespace monsterhunter
                     isSkillPrinted = false;
                 }
             }
-
         }
 
         private static void DetermineRecommendedPoints(List<SkillTreeAndPoints> skills, List<SkillTree> skillTrees, List<SkillTree> inputSkills)
         {
-            return;
+            List<SkillTreeAndPoints> nonInputSkills = ExcludeInputSkills(skills, inputSkills);
+            bool isSkillPrinted = false;
+            foreach (var nonInputSkill in nonInputSkills)
+            {
+                foreach (var skillTree in skillTrees)
+                {
+                    if (skillTree.name == nonInputSkill.SkillTreeName)
+                    {
+                        foreach (var threshold in skillTree.skills)
+                        {
+                            if (nonInputSkill.Points < threshold.requiredPoints && threshold.isPointsNegative == false)
+                            {
+                                Console.WriteLine($"{threshold.requiredPoints - nonInputSkill.Points} {skillTree.name} points are required for {threshold.name}.");
+                                isSkillPrinted = true;
+                            }
+                        }
+                    }
+                }
+                if (isSkillPrinted == true)
+                {
+                    Console.WriteLine();
+                    isSkillPrinted = false;
+                }
+            }
+        }
+
+        private static List<SkillTreeAndPoints> ExcludeInputSkills(List<SkillTreeAndPoints> skills, List<SkillTree> inputSkills)
+        {
+            List<SkillTreeAndPoints> nonInputSkills = new List<SkillTreeAndPoints>();
+            bool shouldAdd = true;
+            foreach (var skill in skills)
+            {
+                shouldAdd = true;
+                foreach (var inputSkill in inputSkills)
+                {
+                    if (inputSkill.name == skill.SkillTreeName)
+                    {
+                        shouldAdd = false;
+                    }
+                }
+                if (shouldAdd == true)
+                {
+                    nonInputSkills.Add(skill);
+                }
+            }
+
+            return nonInputSkills;
         }
 
         private static void DetermineActiveSkills(List<SkillTreeAndPoints> skills, List<SkillTree> skillTrees)
