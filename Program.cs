@@ -370,12 +370,13 @@ namespace monsterhunter
 
             while (true)
             {
+                bool isInputAllowed = true;
                 string input = Prompt("\nPlease input your desired skills and type \"done\" when finished.");
                 if (input == "done")
                 {
                     if (inputSkills.Count == 0)
                     {
-                        Console.WriteLine("Please input skills before moving on.");
+                        Console.WriteLine("Please input skills before moving on. Type \"skills\" to see all available skills.");
                         continue;
                     }
                     else
@@ -384,7 +385,12 @@ namespace monsterhunter
                     }
                 }
 
-                bool isInputAllowed = true;
+                if (input == "skills")
+                {
+                    ShowSkills(skillTrees);
+                }
+
+
                 foreach (var currentSkills in inputSkills)
                 {
                     if (input == currentSkills.name)
@@ -394,6 +400,7 @@ namespace monsterhunter
                     }
                 }
 
+                bool skillAdded = false;
                 if (isInputAllowed)
                 {
                     foreach (var skill in skillTrees)
@@ -402,8 +409,13 @@ namespace monsterhunter
                         {
                             inputSkills.Add(skill);
                             Console.WriteLine("Skill successfully added");
+                            skillAdded = true;
                             break;
                         }
+                    }
+                    if (skillAdded == false && input != "skills")
+                    {
+                        Console.WriteLine("Invalid skill name. Type \"skills\" to see all available skills.");
                     }
                 }
             }
@@ -431,6 +443,15 @@ namespace monsterhunter
             }
 
             return inputSkills;
+        }
+
+        private static void ShowSkills(List<SkillTree> skillTrees)
+        {
+            Console.WriteLine("Available skills are");
+            foreach (var skillTree in skillTrees)
+            {
+                Console.WriteLine(skillTree.name);
+            }
         }
     }
 }
