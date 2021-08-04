@@ -8,7 +8,7 @@ namespace monsterhunter
 {
     class Program
     {
-        // 92
+        // 727
         static void Main(string[] args)
         {
             var armourDb = new ArmourDb();
