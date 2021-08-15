@@ -351,8 +351,11 @@ namespace monsterhunter
                         return ArmourType.Blademaster;
                     case "gunner":
                         return ArmourType.Gunner;
+                    case "?":
+                        Console.WriteLine("You should choose either blademaster or gunner based on the weapon type you intend to use.\nGunner weapons include bow, light bowgun and heavy bowgun.\nAll other weapons are blademaster.\n");
+                        break;
                     default:
-                        Console.WriteLine("Available armour types are 'Blademaster' and 'Gunner'\n");
+                        Console.WriteLine("Available armour types are 'Blademaster' and 'Gunner'\nType '?' for more information.\n");
                         break;
                 }
             }
