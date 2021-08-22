@@ -22,6 +22,8 @@ namespace monsterhunter
             armourCandidates = SortByPriority(armourCandidates);
             var armourSet = GenerateSet(armourCandidates);
             GenerateReport(armourSet, skillTrees, skills);
+            Console.WriteLine("Press enter to exit.");
+            Console.ReadLine();
         }
 
         private static void GenerateReport(ArmourSet armourSet, List<SkillTree> skillTrees, List<SkillTree> inputSkills)
